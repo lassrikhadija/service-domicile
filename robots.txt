@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://phenix-restauration.ca/sitemap.xml
