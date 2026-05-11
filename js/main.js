@@ -191,7 +191,8 @@
     const handle = ba.querySelector('.ba__handle');
     if (!range || !after || !handle) return;
     const update = (val) => {
-      after.style.clipPath = `polygon(0 0, ${val}% 0, ${val}% 100%, 0 100%)`;
+      // AVANT (left) stays visible; APRÈS (right) is clipped to show from handle → 100%
+      after.style.clipPath = `polygon(${val}% 0, 100% 0, 100% 100%, ${val}% 100%)`;
       handle.style.left = val + '%';
     };
     range.addEventListener('input', e => update(e.target.value));
