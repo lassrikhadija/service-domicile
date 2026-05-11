@@ -409,13 +409,13 @@
 
     <section class="section section--ba" id="realisations" aria-labelledby="ba-title">
       <div class="container">
-        <div class="section__header section__header--center">
+        <div class="section__header">
           <span class="eyebrow">Before / after</span>
-          <h2 id="ba-title" class="section__title section__title--center">Drag. See the <em>difference.</em></h2>
-          <p class="section__lead section__lead--center">Our featured job of the season — picked from 287 claims closed in 2025. Click and drag the slider to compare.</p>
+          <h2 id="ba-title" class="section__title">Drag. See the <em>difference.</em></h2>
+          <p class="section__lead">Three recent jobs — picked from 287 claims closed in 2025. Click and drag the slider to compare.</p>
         </div>
 
-        <div class="ba-grid ba-grid--single">
+        <div class="ba-grid">
           <figure class="ba" data-ba>
             <div class="ba__before"><img src="images/cuisine-avant.jpg" alt="Kitchen after fire, soot on walls and burnt cabinets" width="1200" height="800" loading="lazy"/></div>
             <div class="ba__after"><img src="images/cuisine-apres.jpg" alt="Rebuilt and refinished kitchen after fire" width="1200" height="800" loading="lazy"/></div>
@@ -426,11 +426,29 @@
               <span>Range-hood fire · 5 weeks</span>
             </figcaption>
           </figure>
-        </div>
 
-        <p class="ba-more">
-          <a href="#contact">More cases (water, mold, reconstruction) — on request →</a>
-        </p>
+          <figure class="ba" data-ba>
+            <div class="ba__before"><img src="images/degat-eau-avant.jpg" alt="Damaged ceiling with major water leak and infiltration" width="1200" height="800" loading="lazy"/></div>
+            <div class="ba__after"><img src="images/salon-apres.jpg" alt="Living room restored and refinished after water damage" width="1200" height="800" loading="lazy"/></div>
+            <div class="ba__handle" aria-hidden="true"><span></span></div>
+            <input type="range" min="0" max="100" value="50" class="ba__range" aria-label="Before / after slider — water damage"/>
+            <figcaption class="ba__cap">
+              <strong>Residence — Saint-Léonard</strong>
+              <span>Major water damage · 14 days</span>
+            </figcaption>
+          </figure>
+
+          <figure class="ba" data-ba>
+            <div class="ba__before"><img src="images/moisissure-avant.jpg" alt="Ceiling and wall damaged by mold and moisture" width="1200" height="800" loading="lazy"/></div>
+            <div class="ba__after"><img src="images/salle-bain-apres.webp" alt="Bathroom after full decontamination and renovation" width="1200" height="800" loading="lazy"/></div>
+            <div class="ba__handle" aria-hidden="true"><span></span></div>
+            <input type="range" min="0" max="100" value="50" class="ba__range" aria-label="Before / after slider — mold damage"/>
+            <figcaption class="ba__cap">
+              <strong>Bathroom — Outremont</strong>
+              <span>Structural mold · 3 weeks</span>
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 

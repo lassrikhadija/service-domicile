@@ -965,38 +965,6 @@ input, textarea, select { font: inherit; color: inherit; }
 @media (min-width: 800px) { .ba-grid { grid-template-columns: 1fr 1fr; } }
 @media (min-width: 1200px) { .ba-grid { grid-template-columns: repeat(3, 1fr); } }
 
-.ba-grid--single {
-  grid-template-columns: 1fr;
-  max-width: 720px;
-  margin: 0 auto;
-}
-@media (min-width: 800px) { .ba-grid--single { grid-template-columns: 1fr; } }
-@media (min-width: 1200px) { .ba-grid--single { grid-template-columns: 1fr; } }
-.ba-grid--single .ba { aspect-ratio: 16 / 11; }
-
-.ba-more {
-  text-align: center;
-  margin-top: 2.5rem;
-}
-.ba-more a {
-  display: inline-flex;
-  font-family: var(--mono);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: var(--ink-soft);
-  padding: .65rem 1.2rem;
-  border: 1px dashed var(--line-strong);
-  border-radius: 999px;
-  transition: color .3s, border-color .3s, background .3s, transform .3s;
-}
-.ba-more a:hover {
-  color: var(--jade);
-  border-color: var(--jade);
-  background: rgba(31, 229, 176, 0.06);
-  transform: translateY(-2px);
-}
 
 .ba {
   position: relative;
