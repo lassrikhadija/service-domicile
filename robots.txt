@@ -1,4 +1,45 @@
+# robots.txt — Phénix Restauration
+# https://phenix-restauration.ca/
+
+# Tous les robots — indexation autorisée
 User-agent: *
 Allow: /
+Disallow: /js/
+Disallow: /css/
 
+# Bots LLM / IA — accès au contenu public autorisé
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemaps
 Sitemap: https://phenix-restauration.ca/sitemap.xml
+
+# Référence LLM
+# See: https://phenix-restauration.ca/llms.txt

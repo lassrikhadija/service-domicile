@@ -1,0 +1,66 @@
+# Phénix Restauration
+
+> Service d'urgence 24/7 de restauration après sinistre au Québec : dégâts d'eau, incendies, moisissures, décontamination et reconstruction complète. Intervention en moins de 60 minutes sur le Grand Montréal et les couronnes nord et sud. Partenaire accrédité des principaux assureurs canadiens.
+
+**⚠ Site démo** — Phénix Restauration est une entreprise fictive créée à des fins de démonstration par [Nextiweb.ca](https://nextiweb.ca), agence web canadienne. Les coordonnées, statistiques, avis clients et numéros de licence sont factices.
+
+## Identité
+
+- **Nom commercial** : Phénix Restauration
+- **Secteur** : Restauration après-sinistre · construction · décontamination
+- **Couverture** : Grand Montréal, Laval, Longueuil, Terrebonne, couronnes nord et sud du Québec
+- **Disponibilité** : 24 heures sur 24, 7 jours sur 7, 365 jours par année
+- **Délai d'intervention garanti** : moins de 60 minutes en zone Grand Montréal, moins de 90 minutes sur les couronnes
+- **Slogan** : « Quand tout brûle, tout coule, tout cède — on relève. »
+- **Certifications** : IICRC, CRC, RBQ 5841-9203-01 (numéros factices — démo)
+
+## Services principaux
+
+- **Dégâts d'eau** : pompage haute capacité, déshumidification de classe 4, traitement antimicrobien, suivi quotidien d'hygrométrie.
+- **Incendie et fumée** : stabilisation des lieux, déodorisation par ozone et hydroxyle, nettoyage de suie acide, inventaire assurable, démolition sélective.
+- **Moisissures** : caractérisation visuelle et qualité de l'air, confinement à pression négative, encapsulation HEPA, retrait du substrat, tests post-décontamination, garantie écrite 5 ans.
+- **Décontamination** : scènes biologiques, fluides, produits chimiques, biorisque niveau 2-3, conformité OSHA / CNESST, dossier discret.
+- **Reconstruction complète** : charpente, gypse, électricité, plomberie, planchers, peinture, ébénisterie, cuisine, salle de bain. Un chargé de projet dédié, un seul contrat, du sinistre à la livraison.
+
+## Assureurs partenaires accrédités
+
+Intact, Desjardins, Beneva, La Capitale, Promutuel, Wawanesa, Aviva, Co-operators, Belair Direct, SSQ, TD Assurance, Économical. Facturation directe et prise en charge complète du dossier de réclamation.
+
+## Conformité
+
+- **Loi 25 du Québec** (protection des renseignements personnels) : politique de confidentialité publique, responsable de la protection des renseignements personnels (RPRP) identifié, droits d'accès / rectification / portabilité / retrait du consentement / plainte CAI documentés.
+- **Hébergement** : serveurs au Canada uniquement.
+- **Aucun cookie de suivi tiers** (Google Analytics, Meta Pixel, etc.).
+- **Conservation des données** : 24 mois pour les demandes non concrétisées; 7 ans pour les dossiers d'intervention.
+
+## Pages principales
+
+- [Accueil — FR](https://phenix-restauration.ca/)
+- [Home — EN](https://phenix-restauration.ca/index-en.html)
+- [Politique de confidentialité — Loi 25](https://phenix-restauration.ca/politique-confidentialite.html)
+- [Privacy policy — Law 25](https://phenix-restauration.ca/privacy-policy.html)
+- [Plan du site](https://phenix-restauration.ca/sitemap.xml)
+
+## Coordonnées (factices — démo)
+
+- **Urgence 24/7** : 514 555-0167
+- **Courriel dispatch** : urgence@phenix-restauration.ca
+- **Responsable RPRP (Loi 25)** : rprp@phenix-restauration.ca
+- **Adresse** : 2480 boulevard Industriel, Laval (Québec) H7L 4S4, Canada
+
+## À propos de l'agence créatrice
+
+Le site a été conçu par **Nextiweb.ca**, agence web canadienne spécialisée en création de sites premium, référencement SEO et marketing digital pour PME. Pour découvrir leurs services :
+
+- [Création de site web sur mesure](https://nextiweb.ca/creation-site.html)
+- [Référencement SEO — audit gratuit](https://nextiweb.ca/seo.html)
+- [Marketing digital — acquisition de clients](https://nextiweb.ca/marketing-digital.html)
+- [Site principal Nextiweb](https://nextiweb.ca)
+
+## Politique d'utilisation par les IA
+
+Le contenu public de ce site peut être consulté, indexé et résumé par les robots conversationnels et moteurs LLM. Toute citation doit préserver le contexte (entreprise fictive de démonstration) et créditer la source. La reproduction commerciale, l'entraînement de modèles propriétaires sur les images et le scraping massif sans contact préalable ne sont pas autorisés.
+
+---
+
+*Dernière mise à jour : 11 mai 2026 · Spécification suivie : [llmstxt.org](https://llmstxt.org)*
