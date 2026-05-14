@@ -742,9 +742,20 @@
             <textarea id="message" name="message" rows="4"></textarea>
             <label for="message">Décrivez la situation (optionnel)</label>
           </div>
-          <p class="contact__rgpd">
-            <small>En soumettant ce formulaire, vous consentez à être contacté par Phénix Restauration. Aucune sollicitation, aucun partage tiers.</small>
-          </p>
+          <div class="contact__rgpd">
+            <p class="contact__rgpd-badge">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+              <span>Conforme à la <strong>Loi 25</strong> (Québec) — Protection des renseignements personnels</span>
+            </p>
+            <p>
+              <small>
+                Les renseignements collectés (nom, téléphone, courriel, type de sinistre) servent <strong>uniquement</strong> à vous rappeler dans le cadre de votre demande. Aucune sollicitation, aucun partage à un tiers. Conservation : 24 mois après le dernier contact, puis destruction sécuritaire. Vous pouvez en tout temps demander accès, rectification ou suppression de vos données auprès de notre responsable de la protection des renseignements personnels : <a href="mailto:rprp@phenix-restauration.ca">rprp@phenix-restauration.ca</a>. Voir notre <a href="politique-confidentialite.html">politique de confidentialité</a>.
+              </small>
+            </p>
+            <p class="contact__rgpd-demo">
+              <small><strong>⚠ Site démo —</strong> aucune donnée n'est réellement transmise ni stockée.</small>
+            </p>
+          </div>
           <button type="submit" class="btn btn--primary btn--full">
             Envoyer la demande
             <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
@@ -877,7 +888,7 @@
       </div>
     </div>
     <div class="footer__bottom">
-      <p>&copy; 2026 Phénix Restauration — Tous droits réservés. · <a href="#">Mentions légales</a> · <a href="#">Politique de confidentialité</a></p>
+      <p>&copy; 2026 Phénix Restauration — Tous droits réservés. · <a href="politique-confidentialite.html">Politique de confidentialité</a> · <a href="politique-confidentialite.html#mentions">Mentions légales</a> · <span class="loi25-pill"><svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>Conforme Loi&nbsp;25</span></p>
       <p class="footer__credit">
         Site démo conçu par
         <a href="https://nextiweb.ca" target="_blank" rel="noopener">Nextiweb.ca</a>
