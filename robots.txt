@@ -1,5 +1,5 @@
 # robots.txt — Phénix Restauration
-# https://phenix-restauration.ca/
+# https://service-domicile.nextiwebstudio.ca/
 
 # Tous les robots — indexation autorisée
 User-agent: *
@@ -39,7 +39,7 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Sitemaps
-Sitemap: https://phenix-restauration.ca/sitemap.xml
+Sitemap: https://service-domicile.nextiwebstudio.ca/sitemap.xml
 
 # Référence LLM
-# See: https://phenix-restauration.ca/llms.txt
+# See: https://service-domicile.nextiwebstudio.ca/llms.txt

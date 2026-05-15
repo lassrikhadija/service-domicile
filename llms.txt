@@ -35,11 +35,11 @@ Intact, Desjardins, Beneva, La Capitale, Promutuel, Wawanesa, Aviva, Co-operator
 
 ## Pages principales
 
-- [Accueil — FR](https://phenix-restauration.ca/)
-- [Home — EN](https://phenix-restauration.ca/index-en.html)
-- [Politique de confidentialité — Loi 25](https://phenix-restauration.ca/politique-confidentialite.html)
-- [Privacy policy — Law 25](https://phenix-restauration.ca/privacy-policy.html)
-- [Plan du site](https://phenix-restauration.ca/sitemap.xml)
+- [Accueil — FR](https://service-domicile.nextiwebstudio.ca/)
+- [Home — EN](https://service-domicile.nextiwebstudio.ca/index-en.html)
+- [Politique de confidentialité — Loi 25](https://service-domicile.nextiwebstudio.ca/politique-confidentialite.html)
+- [Privacy policy — Law 25](https://service-domicile.nextiwebstudio.ca/privacy-policy.html)
+- [Plan du site](https://service-domicile.nextiwebstudio.ca/sitemap.xml)
 
 ## Coordonnées (factices — démo)
 
