@@ -1932,4 +1932,121 @@ a.contact__channel:hover {
   .btn { padding: .9rem 1.3rem; font-size: 14px; }
   .btn__sub { display: none; }
   .top-strip__phone { font-size: 12px; }
+
+  /* === CONTACT SECTION — mobile fixes === */
+  .container--split { gap: 2.5rem; }
+
+  /* Channels (Urgence / Courriel / Adresse) */
+  .contact__channels { gap: .75rem; margin-top: 1.6rem; }
+  .contact__channel {
+    padding: 1rem 1rem;
+    gap: .85rem;
+    align-items: center;
+  }
+  .contact__channel-icon {
+    width: 44px; height: 44px;
+    flex-shrink: 0;
+  }
+  .contact__channel div {
+    min-width: 0;
+    flex: 1;
+  }
+  .contact__channel strong { font-size: .98rem; }
+  .contact__channel span {
+    font-size: 12.5px;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    display: block;
+  }
+
+  /* Form */
+  .contact__form { padding: 1.4rem 1.15rem; }
+  .contact__form-title { font-size: 1.3rem; margin-bottom: 1.3rem; }
+  .field-row {
+    grid-template-columns: 1fr;
+    gap: .85rem;
+  }
+  .field { margin-bottom: .95rem; }
+  .field input,
+  .field select,
+  .field textarea {
+    padding: 1.05rem .85rem .45rem;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+  .field textarea { padding-top: 1.3rem; }
+  .field label {
+    left: .85rem;
+    font-size: 13px;
+    top: .95rem;
+  }
+  .field input:focus + label,
+  .field select:focus + label,
+  .field textarea:focus + label,
+  .field input:not(:placeholder-shown) + label,
+  .field select:valid + label,
+  .field textarea:not(:placeholder-shown) + label {
+    top: -7px;
+    font-size: 10px;
+  }
+  .field select {
+    background-position: calc(100% - 16px) 1.3rem, calc(100% - 11px) 1.3rem;
+  }
+
+  /* Loi 25 RGPD box */
+  .contact__rgpd {
+    padding: .8rem .85rem;
+    gap: .5rem;
+    border-radius: 10px;
+  }
+  .contact__rgpd small {
+    font-size: 11.5px;
+    line-height: 1.55;
+    display: block;
+  }
+  .contact__rgpd a {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+  .contact__rgpd-badge {
+    font-size: 10.5px !important;
+    line-height: 1.4;
+    flex-wrap: wrap;
+    gap: .35rem !important;
+  }
+  .contact__rgpd-badge span {
+    flex: 1;
+    min-width: 0;
+  }
+  .contact__rgpd-demo {
+    padding-top: .4rem;
+  }
+
+  /* Contact title spacing */
+  .section--contact .section__title { font-size: clamp(1.7rem, 7vw, 2.4rem); }
+
+  /* Footer credit line — wrap LinkedIn pills cleanly */
+  .footer__credit {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    line-height: 1.6;
+  }
+  .footer__bottom { text-align: center; }
+
+  /* Nextiweb signature — tighter */
+  .nextiweb__signature p { font-size: 13px; }
+  .li-pill { padding: .5rem .85rem; font-size: 11.5px; }
+}
+
+/* Tiny phones (≤ 380px) — extra-tight tuning */
+@media (max-width: 380px) {
+  .contact__form { padding: 1.2rem .95rem; }
+  .contact__rgpd { padding: .7rem .75rem; }
+  .contact__channel { padding: .9rem .9rem; gap: .7rem; }
+  .contact__channel-icon { width: 40px; height: 40px; border-radius: 12px; }
+  .contact__channel strong { font-size: .92rem; }
+  .contact__channel span { font-size: 11.5px; }
 }
