@@ -320,14 +320,21 @@ input, textarea, select { font: inherit; color: inherit; }
 .header__burger.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
 @media (max-width: 1080px) {
+  /* CRITICAL: backdrop-filter on .header creates a containing block
+     for position:fixed children, which traps the mobile menu inside
+     the 70px header instead of letting it cover the viewport.
+     Disable it on mobile and use a solid background instead. */
+  .header {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: #0a0e1a !important;
+  }
+
   .header__nav {
     position: fixed;
     top: 70px; left: 0; right: 0; bottom: 0;
     z-index: 99;
     background: #0a0e1a;
-    background: rgba(10, 14, 26, 0.99);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-start;
