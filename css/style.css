@@ -323,6 +323,7 @@ input, textarea, select { font: inherit; color: inherit; }
   .header__nav {
     position: fixed;
     top: 70px; left: 0; right: 0; bottom: 0;
+    z-index: 99;
     background: #0a0e1a;
     background: rgba(10, 14, 26, 0.99);
     backdrop-filter: blur(24px);
@@ -338,6 +339,11 @@ input, textarea, select { font: inherit; color: inherit; }
     overscroll-behavior: contain;
   }
   .header__nav.is-open { transform: translateX(0); }
+
+  /* When mobile menu is open, hide floating UI so it doesn't cover items */
+  body.mobile-nav-open .cookie-banner,
+  body.mobile-nav-open .float-call,
+  body.mobile-nav-open .demo-badge { display: none !important; }
   .header__link {
     font-size: 1.15rem;
     padding: .8rem .25rem;

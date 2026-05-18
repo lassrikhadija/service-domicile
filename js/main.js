@@ -19,19 +19,22 @@
   const burger = document.getElementById('burger');
   const nav = document.getElementById('nav');
   if (burger && nav) {
-    burger.addEventListener('click', () => {
-      const open = nav.classList.toggle('is-open');
+    const setOpen = (open) => {
+      nav.classList.toggle('is-open', open);
       burger.classList.toggle('is-open', open);
       burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      document.body.classList.toggle('mobile-nav-open', open);
       document.body.style.overflow = open ? 'hidden' : '';
+    };
+    burger.addEventListener('click', () => {
+      setOpen(!nav.classList.contains('is-open'));
     });
     nav.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => {
-        nav.classList.remove('is-open');
-        burger.classList.remove('is-open');
-        burger.setAttribute('aria-expanded', 'false');
-        document.body.style.overflow = '';
-      });
+      a.addEventListener('click', () => setOpen(false));
+    });
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && nav.classList.contains('is-open')) setOpen(false);
     });
   }
 
