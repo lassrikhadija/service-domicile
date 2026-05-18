@@ -252,6 +252,35 @@
     });
   });
 
+  /* ---------- COOKIE CONSENT BANNER ---------- */
+  const banner = document.getElementById('cookieBanner');
+  if (banner) {
+    const KEY = 'phenix-cookies-consent';
+    let stored = null;
+    try { stored = localStorage.getItem(KEY); } catch (e) { /* private mode */ }
+
+    const show = () => {
+      banner.hidden = false;
+      document.body.classList.add('cookies-pending');
+      // small delay so transition runs from initial transform
+      requestAnimationFrame(() => banner.classList.add('is-visible'));
+    };
+    const hide = (choice) => {
+      try { localStorage.setItem(KEY, choice + '|' + new Date().toISOString()); } catch (e) {}
+      banner.classList.remove('is-visible');
+      document.body.classList.remove('cookies-pending');
+      setTimeout(() => { banner.hidden = true; }, 500);
+    };
+
+    if (!stored) {
+      // Wait a beat so the user lands on the page before showing
+      setTimeout(show, 900);
+    }
+
+    document.getElementById('cookieAccept')?.addEventListener('click', () => hide('accepted'));
+    document.getElementById('cookieRefuse')?.addEventListener('click', () => hide('refused'));
+  }
+
   /* ---------- CONTACT FORM ---------- */
   const form = document.getElementById('contactForm');
   const success = document.getElementById('contactSuccess');
